@@ -1,0 +1,95 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;      /* Centra verticalmente */
+    height: 100vh;            /* Ocupa toda la altura de la pantalla */
+    background-color: #AE0000; /* Color de fondo rojo */
+    font-family: 'boly', sans-serif;
+    flex-direction: column;   /* Para que los elementos se organicen verticalmente */
+}
+
+/* Formulario */
+.formulario {
+    position: center;
+    text-align: center;       /* Centra el texto dentro del contenedor */
+    margin-bottom: 20px;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.texto-encima {
+    position: center;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Grupo del formulario */
+.grupo-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.boton-limpiar {
+    margin-left: 10px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+/* Botón de continuar */
+.boton-continuar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-continuar:hover {
+    background-color: #0056b3;
+}
+.imagen-esquina {
+    position: absolute;
+    top: 10px;               /* Distancia desde la parte superior */
+    right: 10px;             /* Distancia desde el borde derecho */
+    width: 300px;            /* Ajusta el ancho de la imagen */
+    height: auto;            /* Mantiene la proporción de la imagen */
+}
+.imagen-esquina {
+    position: absolute;
+    top: 10px;               /* Distancia desde la parte superior */
+    left: 10px;             /* Distancia desde el borde derecho */
+    width: 200px;            /* Ajusta el ancho de la imagen */
+    height: auto;            /* Mantiene la proporción de la imagen */
+}

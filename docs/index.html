@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="Untitled-4.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    @import url("Untitled-7.css");
+    </style>
+</head>
+
+<body>
+	 <img src="Captura de pantalla 2024-10-13 165020.png" alt="Imagen en la esquina" class="imagen-esquina">
+	 <img src="Captura de pantalla 2024-10-13 165020.png" alt="Imagen en la esquina IZQ" class="imagen-esquina">
+	
+    <div class="formulario">
+        <div class="texto-centro"></div>
+        <div class="foto-perfil">
+            <img src="a.avif" alt="Foto de Perfil">
+        </div>
+		
+    </div>
+    
+    <div class="grupo-formulario">
+        <input type="text" placeholder="Nombre completo">
+        <div class="boton-limpiar">X</div>
+    </div>
+
+    <div class="grupo-formulario">
+        <input type="text" placeholder="Carrera">
+        <div class="boton-limpiar">X</div>
+    </div>
+
+    <a href="WIKI UVM 2.html" class="boton-continuar">Continuar</a>
+</body>
+</html>

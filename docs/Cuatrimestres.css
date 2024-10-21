@@ -1,0 +1,185 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ED0000; /* Fondo rojo */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ED0000;
+    border-bottom: 3px solid #000;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+}
+
+nav ul.menu li {
+    margin-right: 20px;
+}
+
+nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+}
+
+.buscador input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.buscador button {
+    background: none;
+    border: none;
+}
+
+.buscador button img {
+    width: 20px;
+}
+
+/* Estilos del contenido principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Sección de perfil */
+.perfil {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-usuario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.foto-usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.datos-usuario p {
+    margin-bottom: 5px;
+}
+
+.descripcion, .habilidades {
+    margin-bottom: 20px;
+}
+
+.descripcion h3, .habilidades h3 {
+    margin-bottom: 10px;
+    color: #ED0000;
+}
+
+/* Sección de proyectos */
+.proyectos {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.proyectos ul {
+    list-style: none;
+}
+
+.proyectos ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Sección de comentarios */
+.comentarios {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comentarios h3 {
+    margin-bottom: 10px;
+}
+
+.comentarios input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Aside AÑO */
+.anio {
+    width: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.anio ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.anio ul li {
+    background-color: #ED0000;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Aside MES */
+.mes {
+    width: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mes ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.mes ul li {
+    background-color: #ED0000;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
